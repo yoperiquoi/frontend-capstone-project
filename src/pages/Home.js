@@ -1,11 +1,14 @@
-import Main from '../components/Main';
 import Hero from '../components/Hero';
+import WeekSpecials from '../components/WeekSpecials';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
-    <Main>
+    <>
       <Hero />
-    </Main>
+      <WeekSpecials />
+      <Testimonials />
+    </>
   );
 };
 
